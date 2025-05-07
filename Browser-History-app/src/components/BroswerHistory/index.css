@@ -1,0 +1,94 @@
+/* Root layout */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f1f5f9;
+  }
+  
+  /* Top navigation bar */
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3367d6;
+    padding: 12px 24px;
+  }
+  
+  .nav img {
+    height: 30px;
+  }
+  
+  .search {
+    display: flex;
+    align-items: center;
+    background-color: #2850a7;
+    padding: 6px 12px;
+    border-radius: 4px;
+  }
+  
+  .input {
+    background-color: transparent;
+    border: none;
+    color: white;
+    outline: none;
+    font-size: 14px;
+    margin-left: 8px;
+  }
+  
+  .iconimg {
+    height: 16px;
+    width: 16px;
+  }
+  
+  /* List area */
+  .cards {
+    list-style-type: none;
+    padding: 16px;
+    margin: 0;
+  }
+  
+  li {
+    border-bottom: 1px solid #d7dfe9;
+    padding: 16px 12px;
+  }
+  
+  /* Each history item */
+  .historyalign {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logotime {
+    width: 100px;
+    font-size: 12px;
+    color: #475569;
+  }
+  
+  .logoimg {
+    height: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+  }
+  
+  .domain {
+    font-size: 12px;
+    color: #64748b;
+    margin-left: 4px;
+  }
+  
+  /* Delete button */
+  .delete-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Empty view message */
+  .empty-view {
+    text-align: center;
+    font-size: 18px;
+    color: #475569;
+    padding: 40px;
+  }
+  
